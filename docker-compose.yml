@@ -41,7 +41,7 @@ services:
     container_name: pdf_shop_frontend
     restart: always
     ports:
-      - "3000:3000"
+      - "5001:5001"
     depends_on:
       - backend
 

@@ -80,7 +80,7 @@ STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
 STRIPE_SECRET_KEY=your_stripe_secret_key
 
 # Domain & API Configuration
-DOMAIN=http://localhost:3000
+DOMAIN=http://localhost:5001
 API_URL=http://localhost:4000
 ```
 
@@ -104,7 +104,7 @@ docker-compose -f docker-compose.prod.yml up --build -d
 
 Once the containers are running, you can access the services at:
 
-- **Frontend Store**: [http://localhost:3000](http://localhost:3000)
+- **Frontend Store**: [http://localhost:5001](http://localhost:5001)
 - **Backend API**: [http://localhost:4000](http://localhost:4000)
 - **PhpMyAdmin**: [http://localhost:8080](http://localhost:8080) (Log in with `root` / `rootpassword` as defined in compose file)
 
