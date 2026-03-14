@@ -1,4 +1,4 @@
-# PDF Shop (Stripe Payment Project)
+# Online-E-book-Store (Stripe Payment Project)
 
 ## Description
 
